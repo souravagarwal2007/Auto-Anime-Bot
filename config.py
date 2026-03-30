@@ -12,6 +12,7 @@ class Var:
     API_HASH = getenv("API_HASH")
     BOT_TOKEN = getenv("BOT_TOKEN")
     DB_URI = getenv("DB_URI")
+    DB_URL = getenv("DB_URL")
     DB_NAME = getenv("DB_NAME")
     BAN_SUPPORT = getenv("BAN_SUPPORT", "https://t.me/Im_Sukuna02")
     FSUB_LINK_EXPIRY = int(getenv("FSUB_LINK_EXPIRY", "120"))
